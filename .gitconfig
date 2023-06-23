@@ -1,0 +1,9 @@
+[alias]
+	st = status
+	po = push
+[credential]
+	helper = osxkeychain
+[includeIf "gitdir:~/Projects/github/"]
+	path = ~/Projects/github/.gitconfig
+[includeIf "gitdir:~/Projects/zuehlke/"]
+	path = ~/Projects/zuehlke/.gitconfig
