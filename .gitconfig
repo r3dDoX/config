@@ -5,5 +5,5 @@
 	helper = osxkeychain
 [includeIf "gitdir:~/Projects/github/"]
 	path = ~/Projects/github/.gitconfig
-[includeIf "gitdir:~/Projects/zuehlke/"]
-	path = ~/Projects/zuehlke/.gitconfig
+
+# add more different configs here
